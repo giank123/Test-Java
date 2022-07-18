@@ -1,5 +1,5 @@
 # TEST  - JAVA  
-## [Pagina de CheckStyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/usage.html)
+## Giancarlos Perez Malca [Linkedn](https://www.linkedin.com/in/giancarlosperez/)
 
 ### CheckStyle
 
@@ -54,8 +54,8 @@
 
 ```bash
    target 
-       ->site
-		    ->checkstyle 
-				        ->(ClickDerecho) OpenIn
-							             -> (Abrir en su navegador favorito)
+         -> site 
+		         checkstyle 
+				            -> (ClickDerecho) OpenIn
+							                         -> (Abrir en su navegador favorito)
 ```
