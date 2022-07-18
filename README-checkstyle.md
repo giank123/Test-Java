@@ -55,7 +55,7 @@
 ```bash
    target 
        ->site
-		    ->checkstyle 
-				        ->(ClickDerecho) OpenIn
-							             -> (Abrir en su navegador favorito)
+		 ->checkstyle 
+			 ->(ClickDerecho) OpenIn
+					-> (Abrir en su navegador favorito)
 ```
