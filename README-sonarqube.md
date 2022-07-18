@@ -64,3 +64,27 @@
 
    mvn clean verify sonar:sonar -Dsonar.projectKey=com.tutorial:crud -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_9d4a27a4526b0eece5dc06915b0f6017e27f7e1a
 ```
+
+2. Para proyectos globales :  
+ . Pom(click derecho) -> maven -> Open (settings.xml)
+
+```bash
+
+       <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                    http://localhost:9000
+                </sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
+```
