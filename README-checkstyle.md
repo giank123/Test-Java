@@ -7,8 +7,9 @@
 
 ```bash
        <build>
+
         <plugins>
-            <!--            checkstyle                   -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
@@ -20,7 +21,7 @@
                <artifactId>maven-project-info-reports-plugin</artifactId>
                <version>3.1.1</version>
            </plugin>
-            <!--                         -->
+            
         </plugins>
     </build>
 
@@ -44,7 +45,7 @@
   
 ```
 
-2. En el terminal del proyecto
+2. Ejecutar en el terminal del proyecto
 
 ```bash
    mvn clean site
